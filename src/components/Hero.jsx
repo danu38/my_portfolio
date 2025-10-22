@@ -59,10 +59,13 @@ const ImageContainer = styled.div`
   align-items: center;
   justify-content: center;
   perspective: 1000px;
+  position: relative;
+  min-height: 280px;
 
   @media (max-width: 767px) {
-    flex-direction: column;
-    gap: 0.5rem;
+    gap: 0;
+    min-height: 200px;
+    transform: scale(0.85);
   }
 `
 
@@ -77,14 +80,19 @@ const ImageCard = styled.img`
   cursor: pointer;
 
   @media (max-width: 767px) {
-    width: 120px;
-    height: 160px;
+    width: 100px;
+    height: 140px;
+    border: 3px solid rgba(255, 255, 255, 0.9);
   }
 
   /* Left card - rotated left */
   &:nth-child(1) {
     transform: rotate(-15deg) translateY(10px);
     z-index: 1;
+
+    @media (max-width: 767px) {
+      transform: rotate(-10deg) translateY(5px);
+    }
 
     &:hover {
       transform: rotate(-15deg) translateY(10px) scale(1.05);
@@ -100,8 +108,9 @@ const ImageCard = styled.img`
     height: 260px;
 
     @media (max-width: 767px) {
-      width: 140px;
-      height: 180px;
+      width: 120px;
+      height: 160px;
+      transform: rotate(0deg) scale(1.05);
     }
 
     &:hover {
@@ -114,6 +123,10 @@ const ImageCard = styled.img`
   &:nth-child(3) {
     transform: rotate(15deg) translateY(10px);
     z-index: 2;
+
+    @media (max-width: 767px) {
+      transform: rotate(10deg) translateY(5px);
+    }
 
     &:hover {
       transform: rotate(15deg) translateY(10px) scale(1.05);
