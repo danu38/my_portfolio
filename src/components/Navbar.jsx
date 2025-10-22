@@ -9,8 +9,10 @@ const Nav = styled.nav`
   left: 0;
   right: 0;
   padding: 1.5rem 2rem;
-  background: transparent;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
   z-index: 1000;
+  transition: background 0.3s ease;
 
   @media (min-width: 768px) {
     padding: 1.5rem 4rem;
