@@ -171,13 +171,6 @@ const Projects = () => {
       live: 'https://recepielibrary.netlify.app/'
     },
     {
-      title: 'Domain Business Site',
-      description: 'Domain registration website where customers can search, request, and manage their domains. Includes features for managing value-added services and handling secure payments. Full-stack development with customer workflows and payment integration.',
-      technologies: ['JavaScript', 'TypeScript', 'Payment APIs', 'HTML5', 'CSS3'],
-      github: 'https://github.com/danu38',
-      live: 'https://rs.domains.lk/myaccountlogin'
-    },
-    {
       title: 'E-Learning Platform with Moodle',
       description: 'Set up and configured a full Moodle-based e-learning website. Created and managed training courses focused on WordPress development, including course structure, content uploads, and user access management.',
       technologies: ['Moodle', 'PHP', 'MySQL', 'HTML5', 'CSS3'],
