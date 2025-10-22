@@ -117,6 +117,7 @@ const MobileMenu = styled(motion.div)`
   flex-direction: column;
   gap: 2rem;
   box-shadow: -5px 0 30px rgba(0, 0, 0, 0.3);
+  z-index: 1001;
 `
 
 const CloseButton = styled.button`
@@ -159,7 +160,7 @@ const Overlay = styled(motion.div)`
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-  z-index: 999;
+  z-index: 1000;
 `
 
 const Navbar = () => {
