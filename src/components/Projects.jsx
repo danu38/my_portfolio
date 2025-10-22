@@ -178,7 +178,7 @@ const Projects = () => {
       live: 'https://suhurusara.lk/'
     },
     {
-      title: 'Travel Site (Upcoming)',
+      title: 'Travel Sri Lanka (Upcoming)',
       description: 'Upcoming project showcasing top travel destinations across Sri Lanka, featuring a place directory, booking list, and price comparison tools. Focused on clean UI design, dynamic content, and travel-related API integration.',
       technologies: ['JavaScript', 'TypeScript', 'Travel APIs', 'HTML5', 'CSS3'],
       github: 'https://github.com/danu38',
