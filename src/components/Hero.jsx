@@ -209,10 +209,10 @@ const Hero = () => {
         >
           <ImageContainer>
             <ImageCard
-              src="/workspace-image.jpg"
-              alt="Workspace Setup"
+              src="/comingsoon.jpg"
+              alt="Coming Soon"
               onError={(e) => {
-                e.target.src = 'https://via.placeholder.com/180x240/667eea/ffffff?text=Workspace'
+                e.target.src = 'https://via.placeholder.com/180x240/667eea/ffffff?text=Coming+Soon'
               }}
             />
             <ImageCard
@@ -223,10 +223,10 @@ const Hero = () => {
               }}
             />
             <ImageCard
-              src="/camera-image.jpg"
-              alt="Photography Equipment"
+              src="/nature.png"
+              alt="Nature"
               onError={(e) => {
-                e.target.src = 'https://via.placeholder.com/180x240/8b5cf6/ffffff?text=Camera'
+                e.target.src = 'https://via.placeholder.com/180x240/8b5cf6/ffffff?text=Nature'
               }}
             />
           </ImageContainer>
