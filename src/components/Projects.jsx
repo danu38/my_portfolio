@@ -171,7 +171,7 @@ const Projects = () => {
       live: 'https://recepielibrary.netlify.app/'
     },
     {
-      title: 'E-Learning Platform with Moodle',
+      title: 'E Learning Platform with Moodle',
       description: 'Set up and configured a full Moodle-based e-learning website. Created and managed training courses focused on WordPress development, including course structure, content uploads, and user access management.',
       technologies: ['Moodle', 'PHP', 'MySQL', 'HTML5', 'CSS3'],
       github: 'https://github.com/danu38',
